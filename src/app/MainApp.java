@@ -87,7 +87,7 @@ public class MainApp {
 
         if (count > 0) {
             double average = suma / count;
-            System.out.printf("6.Середнє арифметичне чисел після першого від'ємного числа: %.2f\n", average);
+            System.out.printf("Середнє арифметичне чисел після першого від'ємного числа: %.2f\n", average);
         } else {
             System.out.println("У масиві немає від'ємних чисел або від'ємне число є останнім.");
         }
